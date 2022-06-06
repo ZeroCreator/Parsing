@@ -9,5 +9,3 @@ color_list = {
 tree = ElementTree.fromstring("test.xml")
 
 def foo(tree, level):
-
-
