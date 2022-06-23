@@ -1,5 +1,5 @@
 from lxml import etree
-import requests
+import requests_test
 
 res = requests.get("http://docs.python.org/3/")
 print(res.status_code)
