@@ -1,5 +1,3 @@
-import requests_test
-
 # response = requests.get("http://docs.python.org/3.5/")
 # атрибуты, доступных для объектов ответа.
 # print(response.status_code)
