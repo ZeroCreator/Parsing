@@ -1,3 +1,6 @@
+# Метод @@@ write обеспечивает преобразование из типа python в тип Excel.
+# XlsxWriter поддерживает рабочий лист Excel с максимум 1048576 строками
+# записей и 16384 столбцами записей.
 import xlsxwriter
 
 workbook = xlsxwriter.Workbook('hello.xlsx') # Создать файл
