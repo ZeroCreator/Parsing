@@ -46,5 +46,12 @@ for item, date_str, cost in (expenses):
 # Write a total using a formula.
 worksheet.write(row, 0, 'Total', bold)
 worksheet.write(row, 2, '=SUM(C2:C5)', money_format)
+# worksheet.write(0, 0, 'Hello')          # write_string()
+# worksheet.write(1, 0, 'World')          # write_string()
+# worksheet.write(2, 0, 2)                # write_number()
+# worksheet.write(3, 0, 3.00001)          # write_number()
+# worksheet.write(4, 0, '=SIN(PI()/4)')   # write_formula()
+# worksheet.write(5, 0, '')               # write_blank()
+# worksheet.write(6, 0, None)             # write_blank()
 
 workbook.close()
